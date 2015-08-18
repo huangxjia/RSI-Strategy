@@ -240,6 +240,8 @@ if __name__ == "__main__":
             signals.rsi[signals.positions == -1.0],
            'v', markersize = 10, color = 'k')
 
+# hello hello
+
 
     ax3 = fig.add_subplot(313, ylabel = 'Portfolio Values in CNY', title = "PnL")
     returns['total'].plot(ax = ax3, lw = 2.)
